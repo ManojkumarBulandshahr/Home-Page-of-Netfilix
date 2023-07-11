@@ -1,0 +1,443 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: black;
+    color: white;
+}
+
+header {
+
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(images/backgroundimage.png);
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    position: relative;
+
+    border-bottom-style: ridge;
+    border-bottom-color: #3030308f;
+    border-bottom-width: 10px;
+
+}
+
+nav {
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 0;
+}
+
+.logo {
+
+    width: 150px;
+    cursor: pointer;
+}
+
+nav button {
+
+    border: 0;
+    outline: 0;
+    background: red;
+    color: white;
+    padding: 7px 20px;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#englishbtn {
+
+    background: transparent;
+    border: 0;
+    color: white;
+}
+
+.languagebtn {
+
+    background-color: transparent;
+    border: 2px solid whitesmoke;
+}
+
+.headeritems {
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-top: 40px;
+}
+
+.headeritems h1 {
+
+    font-size: 60px;
+    line-height: 70px;
+    font-weight: 700;
+    max-width: 750px;
+    padding: 10px 0;
+}
+
+.headeritems h2 {
+
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.headeritems p {
+
+    font-size: 18px;
+}
+
+.mailinput {
+
+    background: transparent;
+    border-radius: 8px;
+    align-items: center;
+    margin-top: 30px;
+    overflow: hidden;
+}
+
+.mailinput #mail {
+
+    flex: 1;
+    color: transparent;
+    background: transparent;
+    background-color: #30303079;
+    border: 1px solid #686666;
+    border-radius: 5px;
+    outline: 8px;
+    place-content: start;
+    height: 60px;
+    width: 350px;
+}
+
+#mail::placeholder {
+
+    color: rgba(247, 230, 230, 0.5);
+    font-size: 20px;
+    text-align: start;
+    padding: 10px;
+}
+
+.mailinput button {
+
+    background: red;
+    border: 0;
+    border-radius: 8px;
+    outline: 0;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 20px 35px;
+}
+
+/* ======================================FEATURES=================== */
+
+.first {
+
+    text-align: center;
+    border-bottom: 5px;
+    border-bottom-style: ridge;
+    border-bottom-color: #3030308f;
+    border-bottom-width: 10px;
+}
+
+.first h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 16px 0px;
+}
+
+.first p {
+
+    text-align: center;
+    font-size: 30px;
+}
+
+.first img {
+    align-items: center;
+    width: 500px;
+    height: 500px;
+}
+
+.first #featureimage1 {
+
+    align-items: center;
+    width: 120px;
+}
+
+.first table {
+
+    margin: 5%;
+}
+
+.second {
+
+    align-items: center;
+    border-bottom: 5px;
+    border-bottom-style: ridge;
+    border-bottom-color: #3030308f;
+    border-bottom-width: 10px;
+}
+
+.second img {
+
+    align-items: center;
+    width: 550px;
+    height: 400px;
+    margin: 16px 10px
+}
+
+.second h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 16px 10px
+}
+
+.second p {
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.second table {
+
+    margin: 5%;
+}
+
+.third {
+
+    align-items: center;
+    border-bottom: 5px;
+    border-bottom-style: ridge;
+    border-bottom-color: #3030308f;
+    border-bottom-width: 10px;
+}
+
+.third img {
+
+    align-items: center;
+    width: 550px;
+    height: 400px;
+    margin: 16px 10px
+}
+
+.third h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 16px 10px
+}
+
+.third p {
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.third table {
+
+    margin: 5%;
+}
+
+.four {
+
+    align-items: center;
+    border-bottom: 5px;
+    border-bottom-style: ridge;
+    border-bottom-color: #3030308f;
+    border-bottom-width: 10px;
+}
+
+.four img {
+
+    text-align: center;
+    width: 550px;
+    height: 400px;
+    margin: 16px 10px
+}
+
+.four h2 {
+
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 800;
+    margin: 16px 10px
+}
+
+.four p {
+
+    text-align: center;
+    font-size: 25px;
+}
+
+.four table {
+
+    margin: 5%;
+}
+
+/* =============================FQS================================ */
+.fqs {
+
+    border-bottom: 5px;
+    border-bottom-style: ridge;
+    border-bottom-color: #3030308f;
+    border-bottom-width: 10px;
+
+}
+
+.fqs h2 {
+
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 8%;
+}
+
+.fqs p {
+
+    text-align: center;
+    border-bottom-width: 10px;
+}
+
+.fqs .mailinput {
+
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.questions {
+
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+}
+
+.questions li {
+
+    list-style: none;
+    width: 100%;
+    padding: 5px;
+}
+
+.questions li label {
+
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    background: #303030;
+    cursor: pointer;
+    position: relative;
+
+}
+
+label::after {
+
+    content: '+';
+    font-size: 34px;
+    position: absolute;
+    right: 20px;
+    transition: transform 0.5s;
+
+}
+
+input[type="radio"] {
+
+    display: none;
+}
+
+.questions .answer {
+
+    background: #303030;
+    text-align: left;
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s, padding 0.5s;
+}
+
+.questions input[type="radio"]:checked+label+.answer {
+
+    max-height: 600px;
+    padding: 30px 20px;
+}
+
+.questions input[type="radio"]:checked+label::after {
+
+    transform: rotate(135deg);
+}
+
+/* ========================FOOTER============================== */
+footer {
+
+    margin: 8%;
+    align-items: center;
+}
+
+footer p a {
+
+    text-align: left;
+    color: white
+}
+
+footer #call {
+
+    padding: 0 68px;
+    padding-bottom: 50px;
+
+}
+
+footer table td {
+
+    color: white;
+    text-align: left;
+    padding: 10px 70px;
+}
+
+footer table td a {
+
+    color: white;
+}
+
+footer .languagebtn {
+
+    color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+    background: transparent;
+}
+
+footer .languagebtn #englishbtn {
+
+    border: 0;
+    background: transparent;
+}
+
+#lbtn {
+
+    padding-top: 30px;
+    padding-left: 70px;
+}
+
+footer p {
+
+    padding-left: 70px;
+    padding-top: 30px;
+}
